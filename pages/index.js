@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import MainContainer from '../components/MainContainer'
 
 
 export default function () {
     return (
-        <div>
+        <MainContainer>
             
-        </div>
+        </MainContainer>
     )
 }
