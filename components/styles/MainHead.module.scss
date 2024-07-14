@@ -8,11 +8,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 20vh;
+    margin-top: 16vh;
     text-wrap: nowrap;
     margin-bottom: 199px;
     .title {
-        font-size: 48px;
+        font-size: 44px;
         font-weight: 700;
         margin-bottom: 15px;
         margin-top: 0;
@@ -70,7 +70,8 @@
         transition: all 0.2s linear;
         &:hover{
             transform: translate(0px, 3px);
-            background-color: #3781f9;
+            background-color: #3781f9 ;
+            border-radius: 10px;
         }
     }
     
