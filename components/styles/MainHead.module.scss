@@ -10,9 +10,9 @@
     margin: 0 auto;
     margin-top: 16vh;
     text-wrap: nowrap;
-    margin-bottom: 199px;
+    margin-bottom: 55px;
     .title {
-        font-size: 44px;
+        font-size: 42px;
         font-weight: 700;
         margin-bottom: 15px;
         margin-top: 0;
@@ -23,12 +23,12 @@
         @media(max-width: 800px) {
             font-size: 28px;
         }
-        @media(max-width: 400px) {
+        @media(max-width: 450px) {
             font-size: 20px;
         }
     }
     .text {
-        font-size: 16px;
+        font-size: 15.5px;
         font-weight: 300;
         display: inline-block;
         margin: 0;
@@ -40,7 +40,7 @@
         @media(max-width: 800px) {
             font-size: 10px;
         }
-        @media(max-width: 400px) {
+        @media(max-width: 450px) {
             font-size: 10px;
             text-wrap: wrap;
             line-height: 15px;

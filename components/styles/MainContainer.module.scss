@@ -23,3 +23,15 @@
         }
     }
 }
+.childContainer{
+    padding: 0 200px;
+    @media(max-width: 1650px){
+        padding: 0 150px;
+    }
+    @media(max-width: 1500px){
+        padding: 0 130px;
+    }
+    @media(max-width: 1280px){
+        padding: 0 40px;
+    }
+}

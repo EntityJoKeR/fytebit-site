@@ -1,0 +1,238 @@
+.section{
+
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: "Ubuntu", sans-serif;
+    flex-wrap: nowrap;
+    .leftCards{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        @media (max-width: 1060px) {
+            flex-wrap: wrap;
+        }
+        @media (max-width: 800px) {
+            
+        }
+        @media (max-width: 400x) {
+            
+        }
+        .leftCard{
+            position: relative;
+            padding: 0 15px;
+            padding-top: 24px;
+            color: white;
+            width: 160px;
+            height: 205px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            background-color: rgba(255, 255, 255, 0.04);
+            border-radius: 3px;
+            @media (max-width: 1060px) {
+                
+            }
+            @media (max-width: 800px) {
+                
+            }
+            @media (max-width: 400x) {
+                
+            }
+            
+            img{
+                width: 62px;
+                height: 62px;
+                margin-bottom: 24px;
+            }
+
+            .leftCardTitle{
+                font-weight: 700;
+                font-size: 16px;
+                margin: 0 auto;
+                margin-bottom: 14px;
+                text-transform: uppercase;
+            }
+            .leftCardText{
+                font-size: 13px;
+                font-weight: 300;
+                opacity: 0.5;
+                letter-spacing: 0;
+                text-align: center;
+            }
+            @media (max-width: 1060px) {
+                padding: 10px 13px;
+                width: 130px;
+                height: 155px;
+                img{
+                    width: 62px;
+                    height: 62px;
+                    margin: 0 auto;
+                    margin-bottom: 15px;
+                    
+
+                }
+    
+                .leftCardTitle{
+                    font-weight: 700;
+                    font-size: 12px;
+                    margin-bottom: 8px;
+                    text-transform: uppercase;
+                }
+                .leftCardText{
+                    font-size: 10px;
+                    font-weight: 300;
+                    opacity: 0.5;
+                    // line-height: 123%;
+                    letter-spacing: 0;
+                    text-align: center;
+                    text-wrap: wrap;
+                }
+            }
+            @media (max-width: 800px) {
+                
+            }
+            @media (max-width: 400x) {
+                
+            }
+        }
+        .leftCard:nth-child(1){
+            position: relative;
+            z-index: 1;   
+            top: 98px;
+            left: 45px;
+            @media (max-width: 1060px) {
+                // position: static;
+                // top: 0;
+                // left: 0;
+                // right: 0;
+                // bottom: 0;
+            }
+            @media (max-width: 800px) {
+                
+            }
+            @media (max-width: 400x) {
+                
+            }
+        }
+        .leftCar:nth-child(2){
+            position: relative;
+            z-index: 2; 
+            @media (max-width: 1060px) {
+                // position: static;
+                // top: 0;
+                // left: 0;
+                // right: 0;
+                // bottom: 0;
+            }
+            @media (max-width: 800px) {
+                
+            }
+            @media (max-width: 400x) {
+                
+            }  
+        }
+        .leftCard:nth-child(3){
+            position: relative;
+            z-index: 5; 
+            top: 60px;  
+            right: 25px;
+            @media (max-width: 1060px) {
+                // position: static;
+                // top: 0;
+                // left: 0;
+                // right: 0;
+                // bottom: 0;
+            }
+            @media (max-width: 800px) {
+                
+            }
+            @media (max-width: 400x) {
+                
+            }
+        }
+    }
+    .rightCards{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+        gap: 0 10px;
+        
+        
+        .rightCard{
+            padding: 15px 2px; 
+            color: white;
+            width: 140px;
+            height: 194px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba(255, 255, 255, 0.04);
+            border-radius: 3px;
+            img{
+                width: 110px;
+                height: 110px;
+                margin-bottom: 14px;
+                margin-left: 15px;
+            }
+
+            .rightCardTitle{
+                font-weight: 500;
+                font-size: 15px;
+                margin-bottom: 2px;
+                margin-left: 15px;
+            }
+            .rightCardText{
+                font-size: 12px;
+                font-weight: 300;
+                opacity: 0.5;
+                line-height: 123%;
+                letter-spacing: 0;
+                margin-top: 0;
+                margin-left: 15px;
+            }
+        
+        @media (max-width: 1060px) {
+            width: 100px;
+            height: 150px;
+            padding-top: 0; 
+            img{
+                width: 80px;
+                height: 80px;
+                margin: 10px auto;
+                margin-top: 10px;
+                padding: 0;
+                
+            }
+            .rightCardTitle{
+                font-size: 13px;
+                margin-bottom: 2px;
+                margin: 0 auto;
+                align-self: flex-start;
+            }
+            .rightCardText{
+                font-size: 10px;
+                font-weight: 300;
+                opacity: 0.5;
+                line-height: 123%;
+                letter-spacing: 0;
+                margin: 0 auto;
+            }
+            
+        }
+        @media (max-width: 800px) {
+            
+        }
+        @media (max-width: 400x) {
+            
+        }
+        }
+    }
+}

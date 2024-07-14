@@ -17,7 +17,7 @@ export default function MainContainer({children, keywords}) {
                 </div>
         <NavBar/>
     </div>
-    <div>{children}</div>
+    <div className={classes.childContainer}>{children}</div>
 
     </>
   )

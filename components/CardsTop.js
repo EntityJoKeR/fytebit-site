@@ -17,7 +17,7 @@ export default function CardsTop() {
                 </div>
                 <div className={classes.leftCard}>
                     <img src="img/Thinking Face.svg" alt=""/>
-                    <h3 className={classes.leftCardTitle}>с чего начать?</h3>
+                    <h3 className={classes.leftCardTitle}>как начать?</h3>
                     <p className={classes.leftCardText}>Мы продумаем дизайн и логику для вашего сайта или бота!</p>
                 </div>
             </div>
