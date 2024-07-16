@@ -5,6 +5,7 @@ import CardsTop from '../components/CardsTop'
 
 
 export default function () {
+    
     return (
         <MainContainer>
             <MainHead/>

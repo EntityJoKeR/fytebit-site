@@ -8,17 +8,25 @@
     justify-content: space-between;
     font-family: "Ubuntu", sans-serif;
     flex-wrap: nowrap;
+    @media (max-width: 860px) {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
     .leftCards{
         position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow: visible;
         gap: 5px;
         @media (max-width: 1060px) {
-            flex-wrap: wrap;
-        }
-        @media (max-width: 800px) {
+            flex-wrap: nowrap;
             
+        }
+        @media (max-width: 860px) {
+            // width: 100%;
         }
         @media (max-width: 400x) {
             
@@ -164,6 +172,10 @@
         align-items: center;
         margin-left: 10px;
         gap: 0 10px;
+        @media (max-width: 860px) {
+            width: 100%;
+            justify-content: center;
+        }
         
         
         .rightCard{

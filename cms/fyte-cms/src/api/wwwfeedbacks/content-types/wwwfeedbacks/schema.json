@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wwwfeedbackswww",
+  "info": {
+    "singularName": "wwwfeedbacks",
+    "pluralName": "wwwfeedbackswww",
+    "displayName": "feedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "estimate": {
+      "type": "integer"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

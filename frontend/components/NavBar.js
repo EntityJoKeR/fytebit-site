@@ -1,5 +1,6 @@
 import classes from './styles/NavBar.module.scss'
 export default function NavBar() {
+
   return (
     <>
     <nav className={classes.nav}>

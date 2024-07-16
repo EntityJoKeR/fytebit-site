@@ -1,7 +1,7 @@
 import classes from './styles/MainHead.module.scss'
 
 export default function MainHead() {
-    
+
   return (
     <section className={classes.container}>
         <div className={classes.content}>

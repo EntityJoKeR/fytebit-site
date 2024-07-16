@@ -4,6 +4,7 @@ import classes from './styles/MainContainer.module.scss'
 
 
 export default function MainContainer({children, keywords}) {
+  
   return (
     <>
     <Head>
